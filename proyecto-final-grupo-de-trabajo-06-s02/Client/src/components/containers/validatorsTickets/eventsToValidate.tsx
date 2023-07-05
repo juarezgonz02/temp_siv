@@ -7,6 +7,9 @@ import { AuthContext } from '../../../utils/AuthContext'
 import SearchEvent from '../../global/searchEvent'
 import '../../../styles/events.css'
 import ValidatedCard from '../../global/validatedCard'
+import { useState } from 'react'
+
+
 
 export type action = {
     text: string
@@ -19,6 +22,7 @@ const EventsToValidate = ({ actions }: ({ actions: action[] })) => {
     const { listEvents } = useContext(EventContext)
     const [events, setEvents] = listEvents;
     const [token] = useContext(AuthContext).token
+    const [filteredEvents, setFilteredEvents] = useState<Event[]>([])
 
     useEffect(() => {
         getAllEvents()
@@ -40,34 +44,64 @@ const EventsToValidate = ({ actions }: ({ actions: action[] })) => {
         }
     };
 
-
-    return (
+    const filterEventsByTitle = (title: string) => {
+      const filtered = events.filter((event) => event.title.includes(title))
+      setFilteredEvents(filtered)
+    }
+  
+    const handleCategoryChange = (selectedCategory: string) => {
+      const filtered = events.filter((event) => event.category.categoryId.includes(selectedCategory))
+      setFilteredEvents(filtered)
+    };
+    
+    const handleDateChange = (selectedDate: string) => {
+      const filtered = events.filter((event) => event.date.includes(selectedDate))
+      setFilteredEvents(filtered)
+    };
+  
+      return (
         <div className='container'>
-            <div className='navigationMovil'>
-                <NavigationMovil></NavigationMovil>
-            </div>
-            <div className="container-filters">
-                <SearchEvent />
-                <FiltersEvents />
-            </div>
-            <div className='cards-container'>
-                {events.map((event, index) => (
-                    <ValidatedCard
-                        key={index}
-                        id={event.eventId}
-                        title={event.title}
-                        date={event.date}
-                        banner={event.banner}
-                        category={event.category.name}
-                        data={event}
-                        actions={actions}
-                        code={event.code}
-                    />
-                ))}
-            </div>
+          <div className='navigationMovil'>
+            <NavigationMovil></NavigationMovil>
+          </div>
+          <div className="container-filters">
+          <SearchEvent onSearch={filterEventsByTitle} />
+          <FiltersEvents onCategoryChange={handleCategoryChange} onDateChange={handleDateChange}/>
+          </div>
+          <div className='cards-container'>
+            {filteredEvents.length > 0 ? (
+              filteredEvents.map((event, index) => (
+                <ValidatedCard
+                  key={index}
+                  id={event.eventId}
+                  title={event.title}
+                  banner={event.banner}
+                  date={event.date}
+                  category={event.category.name}
+                  data={event}
+                  actions={actions}
+                  code={event.code}
+                />
+              ))
+            ) : (
+              events.map((event, index) => (
+                <ValidatedCard
+                  key={index}
+                  id={event.eventId}
+                  title={event.title}
+                  banner={event.banner}
+                  date={event.date}
+                  category={event.category.name}
+                  data={event}
+                  actions={actions}
+                  code={event.code}
+                />
+              ))
+            )}
+          </div>
         </div>
-    )
-}
+      )
+    }
 
 
 

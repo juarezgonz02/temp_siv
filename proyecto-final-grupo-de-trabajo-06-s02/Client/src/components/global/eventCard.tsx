@@ -8,13 +8,15 @@ import { Event } from '../../utils/types';
 const CardEvent = ({title, banner, category, data, date, actions, code}: (EventCardData)) => {
 
     const {selectedEvent} = useContext(EventContext)
-    const [,changeSelected] = selectedEvent;    
+    const [,changeSelected] = selectedEvent; 
+    
+    const dateShort = new Date(date).toLocaleDateString()
 
     return (
         <div className='event-card'>
             <img src={banner} className={'img-class'} alt="imagen" />
             <div className={'date-category'}>
-                <label className={'label-date'}>{date}</label>
+                <label className={'label-date'}>{dateShort}</label>
                 <Tag>{category}</Tag>
             </div>
             <h3 className={'title'}>{title}</h3>
