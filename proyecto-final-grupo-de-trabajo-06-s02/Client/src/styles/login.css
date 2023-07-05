@@ -1,0 +1,85 @@
+.login-page{
+    background-color: #EBEDF0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.login-title{
+    color: #1F2D3D;
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: 'Open Sans';
+    text-align: center;
+    margin-inline: auto;
+}
+
+.login-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-form{
+    background-color: #FFFEFE;
+
+    padding-inline: 10px;
+    border-radius: 8px;
+    align-items: center;
+    max-width: 600px;
+    width: 85%;
+    padding-block: 32px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+}
+
+.login-button{
+    background-color: #1F2D3D;
+    height: 32px;
+    width: 100%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 25px;
+}
+
+.login-button:hover{
+    color: #FFAA00 !important;
+}
+
+.login-gmailbutton{
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.login-ant-form-item-label{
+    padding-bottom: 0px !important;
+}
+
+.login-logo{
+    object-fit: cover;
+    max-width: 128px;
+    width: 25vw;
+}
+
+@media(min-width: 550px){
+    .login-input{
+        width: 80%;
+        margin-left: 5%;
+        padding-block: 6px;
+    }
+
+    .login-desktop{
+        width: 63.5%;
+        margin-left: 21.5%;
+    }
+
+    .login-form{
+        padding-block: 95px;
+    }
+}

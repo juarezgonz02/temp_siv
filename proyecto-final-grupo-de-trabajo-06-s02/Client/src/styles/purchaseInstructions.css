@@ -1,0 +1,55 @@
+@media (max-width: 480px) {
+    .container-instructions {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding-left: 15px;
+        margin-top: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+        gap: 19px;
+        width: auto;
+        height: 139.07px;
+    }
+
+    .instruction-title {
+        width: 115px;
+        height: 19.07px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        /* identical to box height, or 125% */
+
+        color: #000000;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .instruction-description {
+        width: 100%;
+        height: 101px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        /* or 143% */
+        color: rgba(0, 0, 0, 0.5);
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+}

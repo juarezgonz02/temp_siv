@@ -1,0 +1,57 @@
+.img-cards{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.img-card{
+    width: 4rem;
+    height: 4rem;
+}
+
+.total-payment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 0.75rem;
+    margin-top: 1rem;
+}
+
+.total-payment-label{
+    font-weight: 400;
+    color: #000;
+}
+
+@media (max-width: 480px){
+    .container-form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1rem;
+        margin-top: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+       
+    
+    .img-card{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    
+    .state-event{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: row;
+        gap: 0.75rem;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+}

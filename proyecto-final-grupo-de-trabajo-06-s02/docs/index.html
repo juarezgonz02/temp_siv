@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+  rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="google-signin-client_id"
+  content="37271178390-a7d8cfu94ncudo8cqr0e35v25k20oj9q.apps.googleusercontent.com">
+  <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SivTickets</title>
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+  <script>
+    const onSignIn = (response) => {
+
+        console.log(response)
+
+        const jwt = response.credential;
+        const sid = "oauth2";
+
+        // Crea una nueva cookie con el nombre "session" y establece su valor como el JWT codificado.
+        document.cookie = `session=${jwt};`;
+
+        // Crea una nueva cookie con el nombre "sid" y establece su valor como el SID.
+        document.cookie = `sid=${sid};`;
+
+        // Establece la duración de la cookie en 1 hora.
+        const now = new Date();
+        const expireTime = now.getTime() + 3600000;
+        now.setTime(expireTime);
+        document.cookie = `session=${jwt};expires=${now.toUTCString()};path=/ secure`;
+        document.cookie = `sid=${sid};expires=${now.toUTCString()};path=/ secure` ;
+    } </script>
+  <script type="module" crossorigin src="/assets/index-aad1594c.js"></script>
+  <link rel="stylesheet" href="/assets/index-9f2dc732.css">
+</head>
+
+<body>
+  <div id="root"></div>
+  
+</body>
+
+
+</html>

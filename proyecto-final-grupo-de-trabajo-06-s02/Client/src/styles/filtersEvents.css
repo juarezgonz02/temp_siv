@@ -1,0 +1,35 @@
+.filters {
+    margin-right: 2rem;
+    width: 100%;
+}
+
+.container-filters {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background: #1F2D3D;
+}
+
+.icon-close {
+    display: none;
+}
+
+
+@media (max-width: 850px) {
+    .filters {
+        display: none;
+        margin: 1rem;
+    }
+
+    .container-filters {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background: #1F2D3D;
+        border-radius: 0px 0px 5px 5px;
+    }
+}

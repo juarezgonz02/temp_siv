@@ -1,0 +1,48 @@
+.container-banner-events-created {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 15px 15px 30px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    left: 0px;
+    top: 55px;
+    background: #1F2D3D;
+}
+
+.banner-event-text-prop {
+    width: auto;
+    height: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    margin-left: 10px;
+    /* identical to box height, or 100% */
+    color: #FFAA00;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.button-event-created{
+    margin-right: 10px;
+}
+
+@media (max-width: 468px){    
+    .banner-event-text-prop{
+        font-size: 18px;
+    }
+
+    .button-event-created{
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+}
+

@@ -1,0 +1,20 @@
+.customer-title-container {
+    margin-inline: auto;
+    margin-block: 1rem;
+    width: 88%;
+}
+
+.customer-title-text {
+    font-size: 2rem;
+    text-align: left;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #1F2D3D;
+}
+
+.customer-title-divider {
+    height: 3px;
+    width: 100%;
+    background-color: #1F2D3D;
+}

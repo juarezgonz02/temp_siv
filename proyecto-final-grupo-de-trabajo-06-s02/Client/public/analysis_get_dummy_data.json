@@ -1,0 +1,17 @@
+{
+	"sold_ticket":270,
+	"tickets_validated":230,
+	
+    "entrance_data": {
+		"group":230,
+		"solo": 30
+	},
+	
+    "validate_hours": [
+        {"hour": "19:00", "count": 54},
+        {"hour": "19:30", "count": 163},
+        {"hour": "20:00", "count": 43},
+        {"hour": "20:30", "count": 21},
+        {"hour": "21:00", "count": 12}
+		]
+}

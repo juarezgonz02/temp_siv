@@ -1,0 +1,38 @@
+.navigation-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    background: #1F2D3D;
+}
+
+.btn-close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    color: #FFAA00;
+    cursor: pointer;
+}
+
+
+@media (max-width: 850px) {
+    .navigation {
+        display: none;
+    }
+    
+    .navigation-container {
+        flex-direction: column;
+        position: fixed;
+        width: 70%;
+        height: 100%;
+        z-index: 999;
+        top: 0;
+        right: -70%;
+        transform: translateX(-100%);
+        background-color: rgba(31, 45, 61, 0.95);
+        backdrop-filter: blur(10px); /* Agregamos el efecto de borroso */
+        pointer-events: auto;
+    }
+}

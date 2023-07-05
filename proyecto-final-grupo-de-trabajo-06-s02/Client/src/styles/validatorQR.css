@@ -1,0 +1,43 @@
+.validatorQR-container {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.qr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.btn-qr {
+    width: 300px;
+    height: 32px;
+    background: #1F2D3D;
+    border-radius: 5px;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+.instructions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-top: 2rem;
+    margin: 2rem;
+    gap: 1rem;
+}
+
+.label-title {
+    font-size: 1.2rem;
+    color: black;
+}
+
+.label-content {
+    font-size: 0.9rem;
+    color: black;
+}

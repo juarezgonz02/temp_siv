@@ -1,0 +1,22 @@
+.customer-form-container {
+    background-color: white;
+    width: 88%;
+    margin-inline: auto;
+    margin-block: 1.5rem;
+}
+
+.customer-form-container > h2 {
+    padding: 1rem;
+    font-size: 2rem;
+    text-align: left;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #1F2D3D;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+.customer-form-last {
+    margin-bottom: 10rem;
+}

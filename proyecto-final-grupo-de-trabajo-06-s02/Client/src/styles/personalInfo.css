@@ -1,0 +1,19 @@
+.personal-info-container {
+    margin-left: 3rem;
+    margin-right: 20rem;
+    margin-bottom: 1rem;
+}
+
+.personal-info-title {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: 'Open Sans';
+    font-weight: normal;
+    margin-block: 0.20rem;
+}
+
+.personal-info-content {
+    color: #0B3954;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    margin-block: 0.20rem;
+}

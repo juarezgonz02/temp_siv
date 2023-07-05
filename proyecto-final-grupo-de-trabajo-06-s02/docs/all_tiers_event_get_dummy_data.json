@@ -1,0 +1,50 @@
+{
+	"tiers": [
+		{
+			"cotizacion_Id": 1234,
+			"bloque_asiento_id": "11cd877e-cdf5-4b59-825e-258b2d5b6b80",
+			"evento_id": 9012,
+			"numerado": true,
+			"nombre_solicitado": "VIP",
+			"precio": 150.99,
+			"bloque_id": 5678,
+			"nombre_bloque": "Bloque A",
+			"cantidad_asientos": 100,
+			"posicion_x_mapa": 10.5,
+			"posicion_y_mapa": 20.75,
+			"disposicion_asientos": "12x7",
+			"localidad_id": 345
+		},
+		{
+			"cotizacion_Id": 1234,
+			"bloque_asiento_id": "b76767cd-a727-4645-a31c-826187c7a24d",
+			"evento_id": 9012,
+			"numerado": false,
+			"nombre_solicitado": "Platinum",
+			"precio": 150.99,
+			"bloque_id": 5678,
+			"nombre_bloque": "Bloque A",
+			"cantidad_asientos": 100,
+			"posicion_x_mapa": 10.5,
+			"posicion_y_mapa": 20.75,
+			"disposicion_asientos": "12x7",
+			"localidad_id": 345
+		},
+		{
+			"cotizacion_Id": 1234,
+			"bloque_asiento_id": "dc2121d0-2400-472d-9f4b-d5ae2f615592",
+			"evento_id": 9012,
+			"numerado": true,
+			"nombre_solicitado": "VIP",
+			"precio": 150.99,
+			"bloque_id": 5678,
+			"nombre_bloque": "Bloque A",
+			"cantidad_asientos": 100,
+			"posicion_x_mapa": 10.5,
+			"posicion_y_mapa": 20.75,
+			"disposicion_asientos": "12x7",
+			"localidad_id": 345
+		}
+	],
+	"count": 3
+}

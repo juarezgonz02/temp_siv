@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.close {
+  color: black;
+  background-color: white;
+}
+
+.close:hover {
+  opacity: 0.3;
+}
+
+.hoverControllers {
+  z-index: 2;
+}
+
+.hoverControllers>rect:hover {
+  fill: #B2AFAF;
+}
+
+.hoverControllers>rect:focus {
+  fill: #B2AFAF;
+}
+
+.hoverControllers>rect {
+  fill: #B2AFAF;
+}
+
+.hoverPath:hover {
+  fill: #61dafb;
+}
+
+.loadingBox {
+  fill: grey;
+  opacity: 0.2;
+}
+
+
+svg {
+
+  overflow: hidden;
+}
+
+.seatIco {
+  display: line;
+  width: 25px;
+  height: 25px;
+}
+
+.available>svg>path {
+  stroke: #3CB371;
+  fill: #3CB371;
+}
+
+.selected>svg>path {
+  stroke: gray;
+  fill: gray;
+}
+
+.taken>svg>path {
+  stroke: red;
+  fill: red;
+}
+
+
+.tiersView {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Roboto';
+  font-style: normal;
+}
+
+.mapcontainer {
+  overflow: hidden;
+  fill: white;
+}
+
+#svgout > svg:nth-child(3)
+{
+  width: 300px;
+  height: 300px;  
+}
+
+.mapSvg {
+  overflow: visible;
+  z-index: -1;
+}
+.shadowCont{
+  width: 100vw;
+  height: 100vw;
+  background-color: gray;
+  opacity: 0.8;
+
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.notification {
+  /* Notification */
+
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 24px;
+  gap: 16px;
+
+  color: black;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+
+  margin: auto;
+
+  opacity: 1;
+
+  width: 24rem;
+  height: 12rem;
+
+  text-align: center;
+  /* Conditional / pop-over */
+
+  background: #FFFFFF;
+  /* drop-shadow/0.12+0.8+0.5 */
+
+  box-shadow: 0px 3px 6px -4px rgba(0, 0, 0, 0.12), 0px 6px 16px rgba(0, 0, 0, 0.08), 0px 9px 28px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+}
+
+.nonumeredselector {
+
+  /* content */
+
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px -24px 0px 0px;
+  gap: 8px;
+
+  width: 20rem;
+  height: 12rem;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+
+
+}
+
+.seatsContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.available:hover>svg>path {
+  cursor: pointer;
+  transition: cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.TiersInfoContainer {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  padding-top: 1em;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+
+}
+
+.TiersInfoContainer>p {
+  color: black;
+  text-align: start;
+}
+
+.subtext {
+  font-size: 1em;
+}
+
+.mapViewContainer {
+  max-width: 80vw;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: white;
+}
+
+.seats-svg-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

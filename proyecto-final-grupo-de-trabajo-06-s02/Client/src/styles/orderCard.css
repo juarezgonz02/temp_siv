@@ -1,0 +1,67 @@
+.ordercard-container {
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-inline: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #FFFEFE;
+}
+
+.ordercard-img {
+    width: 95%;
+    height: 175px;
+    margin-inline: auto;
+    border-radius: 25px;
+    margin-top: 15px;
+}
+
+.ordercard-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 8px;
+}
+
+.ordercard-title {
+    color: black;
+    margin-left: 10px;
+    font-weight: 700;
+    font-family: 'Open Sans';
+    font-size: 1rem;
+    margin-block: 0.75rem;
+}
+
+.ordercard-type {
+    color: black;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 0.80rem;
+    opacity: 0.7;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    background: #FFFEFE;
+    margin-right: 10px;
+}
+
+.ordercard-date {
+    color: black;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 0.80rem;
+    opacity: 0.8;
+    margin-left: 10px;
+}
+
+.ordercard-button {
+    margin-inline: auto;
+    margin-left: 1em;
+    margin-bottom: 15px;
+    padding: 1px, 8px;
+    text-align: center;
+    color: #1E810E;
+    opacity: 0.8;
+    border: 1px solid rgba(30, 129, 14, 0.5);
+    background: #FFFEFE;
+    cursor: pointer;
+}

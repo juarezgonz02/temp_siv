@@ -1,0 +1,13 @@
+.orders-container{
+    margin-inline: auto;
+    width: 88%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+
+.orders-container > * {
+    margin-block: 1.5rem;
+}

@@ -1,0 +1,31 @@
+.sidebar-menuentry-options{
+    display: flex;
+    font-family: 'Roboto';
+    font-weight: bolder;
+    color: #F9FBFA;
+    padding-inline: 10px;
+    font-size: 1.25rem;
+    padding-block: 12px;
+    margin-left: 16px;
+    margin-right: 12px;
+    padding-left: 8px;
+    cursor: pointer;
+}
+
+.sidebar-menuentry-options:hover{
+    background-color: #0C4C71;
+    border-radius: 8px;
+}
+
+.sidebar-logout-vector{
+    margin-right: 10px;
+    width: 23px;
+    height: 23px;
+    margin-block: auto;
+}
+
+@media(max-width: 550px) {
+    .sidebar-menuentry-options {
+        justify-content: center;
+    }
+}

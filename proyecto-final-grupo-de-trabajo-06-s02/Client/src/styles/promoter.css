@@ -1,0 +1,3 @@
+.disabledFilter{
+    filter: grayscale(1) brightness(0.8);
+}

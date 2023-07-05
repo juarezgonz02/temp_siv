@@ -1,0 +1,122 @@
+[
+  {
+    "Ticket_id": "c2ed20f0-78d1-4f36-9526-7225501f6231",
+    "Compra_id": "e835b26e-72c9-4e6a-94a7-3f4a4775a6e5",
+    "evento_id": "8c8f7dbb-7e8f-42cd-9251-38d53d69f4b3",
+    "asiento": "BloqueA-10",
+    "estado": "sin canjear",
+    "bloque_asiento_id": "7d5075e0-5c5b-4d8e-9014-86b6e9ae2480"
+  },
+  {
+    "Ticket_id": "f8b70276-27f0-4b59-8bfa-23d687ad51e7",
+    "Compra_id": "c92c40d0-1eeb-4b22-9e9a-604f2df1d63f",
+    "evento_id": "d84f25a1-c4c0-4d45-964f-3b21a541a95f",
+    "asiento": "BloqueB-8",
+    "estado": "sin canjear",
+    "bloque_asiento_id": "7d5075e0-5c5b-4d8e-9014-86b6e9ae2480"
+  },
+  {
+    "Ticket_id": "0db327ad-5a52-4b8e-b31b-4a9a01a1e16c",
+    "Compra_id": "232f160b-4aae-4054-8b8b-7a7518ebe5e2",
+    "evento_id": "231d3480-2274-486b-aa38-4a4d8e6f2060",
+    "asiento": "BloqueC-12",
+    "estado": "sin canjear",
+    "bloque_asiento_id": "7d5075e0-5c5b-4d8e-9014-86b6e9ae2480"
+  },
+  {
+    "Ticket_id": "0d39f9e4-07a3-4c29-a83d-68d409f6e634",
+    "Compra_id": "b623f6b5-2c2f-480e-a1e9-7d830d4a0112",
+    "evento_id": "4d399c9e-d4e9-42e4-a8e6-bb9074bc9e49",
+    "asiento": "BloqueD-6",
+    "estado": "sin canjear",
+    "bloque_asiento_id": "7d5075e0-5c5b-4d8e-9014-86b6e9ae2480"
+  },
+  {
+    "Ticket_id": "a6dbf862-545a-4b85-bd3e-5de2a605b5e7",
+    "Compra_id": "4469382b-6e42-4c10-bcf5-161487cfe299",
+    "evento_id": "deff5e6a-8dd4-4874-88c2-9545efb5cda7",
+    "asiento": "BloqueE-3",
+    "estado": "sin canjear",
+    "bloque_asiento_id": "7d5075e0-5c5b-4d8e-9014-86b6e9ae2480"
+  },
+  {
+    "Ticket_id": "f9b57e86-4b43-4714-9a84-b39979d4d9e1",
+    "Compra_id": "4de6a99b-9b19-447f-a877-5e446edb312c",
+    "evento_id": "d78e3c1e-bcbc-4f1d-bf79-0dd7de1f7be4",
+    "asiento": "BloqueA-15",
+    "estado": "sin canjear",
+    "bloque_asiento_id": "bb850b11-1f3e-4f02-b0b1-8f830457f61f"
+  },
+  {
+    "Ticket_id": "6784e1ab-b3fe-4f83-a732-7d1546d64164",
+    "Compra_id": "7ff9b3e6-6386-4a12-ae63-97e244c02f62",
+    "evento_id": "51c39a2e-4fb3-40c6-8a29-54fbcf31bce6",
+    "asiento": "BloqueB-11",
+    "estado": "sin canjear",
+    "bloque_asiento_id": "bb850b11-1f3e-4f02-b0b1-8f830457f61f"
+  },
+  {
+    "Ticket_id": "60089132-d400-4f16-b5d1-eb6a0fbc34b6",
+    "Compra_id": "6825e8e6-82e4-44d3-941e-65b38e4e7b4c",
+    "evento_id": "d2ae2be7-8b38-4d1f-a79a-c1a3632e872e",
+    "asiento": "BloqueC-4",
+    "estado": "sin canjear",
+    "bloque_asiento_id": "bb850b11-1f3e-4f02-b0b1-8f830457f61f"
+  },
+  {
+    "Ticket_id": "3f26e038-9d89-41d6-84e0-8c5326172c7f",
+    "Compra_id": "5edfe9e4-9d91-4947-b455-ebf07211fb9e",
+    "evento_id": "78b0dfaf-3fb0-4c49-bb41-d65105cc9a3f",
+    "asiento": "BloqueD-9",
+    "estado": "sin canjear",
+    "bloque_asiento_id": "bb850b11-1f3e-4f02-b0b1-8f830457f61f"
+  },
+  {
+    "Ticket_id": "8e8ed6b0-fcf6-4b91-8992-d2a63b2a6eb6",
+    "Compra_id": "e402f2e0-b43d-4499-98ea-043ff4305d2a",
+    "evento_id": "9f789bf5-5b29-4553-bad1-42d6fde6ae5d",
+    "asiento": "BloqueE-6",
+    "estado": "sin canjear",
+    "bloque_asiento_id": "bb850b11-1f3e-4f02-b0b1-8f830457f61f"
+  },
+  {
+    "Ticket_id": "beae835d-8b4e-42db-8ff6-88e23c96ad8f",
+    "Compra_id": "d5e4a4c5-8d8e-4f24-9c66-fdbd3801d898",
+    "evento_id": "3fe08e8b-01e2-4b45-9e19-3ae42d48d29f",
+    "asiento": "BloqueA-3",
+    "estado": "sin canjear",
+    "bloque_asiento_id": "5eb33f29-62fe-4e7f-a907-72a15f7b4821"
+  },
+  {
+    "Ticket_id": "e7c03df0-3df0-4c78-8a36-5e4ed8c17c45",
+    "Compra_id": "d4f67b3d-c06e-4ed7-91e7-05d19d4a9e09",
+    "evento_id": "432b5ef5-892a-4f02-9e9f-8690b535e3f3",
+    "asiento": "BloqueB-6",
+    "estado": "sin canjear",
+    "bloque_asiento_id": "5eb33f29-62fe-4e7f-a907-72a15f7b4821"
+  },
+  {
+    "Ticket_id": "3e4b70cd-7c19-4ce9-bd95-3a0a26f5bc39",
+    "Compra_id": "66e268ce-6ff7-4fb9-88ad-1617eaf9d667",
+    "evento_id": "c4e00d4c-c049-42dd-854f-623d4b4a3f11",
+    "asiento": "BloqueC-9",
+    "estado": "sin canjear",
+    "bloque_asiento_id": "5eb33f29-62fe-4e7f-a907-72a15f7b4821"
+  },
+  {
+    "Ticket_id": "76894871-ee7f-44c3-b0b3-32d8bde8547b",
+    "Compra_id": "bb7a8baf-36ef-49f1-8d86-6e80035c2db5",
+    "evento_id": "c3a3d438-1c9c-4e5e-b03c-801e6f9d7740",
+    "asiento": "BloqueD-12",
+    "estado": "sin canjear",
+    "bloque_asiento_id": "5eb33f29-62fe-4e7f-a907-72a15f7b4821"
+  },
+  {
+    "Ticket_id": "b889f2f7-722b-42ce-9f01-c26db4244c55",
+    "Compra_id": "a0e6ef9f-7b73-4288-8c56-073141c8a898",
+    "evento_id": "fe4f2da6-d5b0-4b2e-bf6b-28c07ed8a396",
+    "asiento": "BloqueE-1",
+    "estado": "sin canjear",
+    "bloque_asiento_id": "5eb33f29-62fe-4e7f-a907-72a15f7b4821"
+  }
+]
